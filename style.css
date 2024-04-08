@@ -1,0 +1,181 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 10px;
+}
+
+.first-line {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav1,
+.nav2,
+.nav3 {
+    margin-right: 50px;
+    font-size: 20px;
+}
+
+.nav4 button {
+    color: #7C7C7C;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #C2BDBD;
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav5 button {
+    background-color: #1FFF8B;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.second-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.logoFacisa img {
+    width: 250px;
+    height: 150px;
+}
+
+.left-second {
+    display: flex;
+}
+
+.right-second {
+    display: flex;
+}
+
+.nav1-second,
+.nav2-second,
+.nav3-second {
+    margin-right: 100px;
+}
+
+.nav1-second select,
+.nav2-second select,
+.nav3-second select,
+.nav4-second select {
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+}
+
+/*FIM DO HEADER*/
+.section1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.section1 h1 {
+    font-size: 50px;
+}
+
+.paragraph {
+    font-size: 18px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.squares {
+    margin-left: 200px;
+    margin-right: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square {
+    width: 315px;
+    height: 245px;
+    background: linear-gradient(to right, #000000, #666666);
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: start;
+    padding: 10px 0px 10px 8px;
+}
+
+.square h3 {
+    color: white;
+    font-size: 30px;
+}
+
+.square p {
+    color: white;
+    font-size: 20px;
+}
+
+/* FIM SECTION 1 */
+.section2 {
+    margin-left: 80px;
+    margin-right: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section2 label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.input-section2 {
+    width: 1283px;
+    height: 30px;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+.select-section2 {
+    width: 1290px;
+    height: 30px;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+.section2 label textarea {
+    width: 1286px;
+    height: 100px;
+    resize: none;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+.button-form {
+    display: flex;
+    justify-content: end;
+}
+
+.button-form button {
+    padding: 10px 30px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: #0B6098;
+    border: none;
+    border-radius: 5px;
+}
